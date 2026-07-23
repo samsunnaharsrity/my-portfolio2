@@ -10,7 +10,7 @@ export default function Education() {
       degree: "Diploma in Engineering",
       subject: "Computer Technology",
       institute: "Desh Polytechnic College",
-      duration: "2020 - 2024",
+      duration: "2022 - 2025",
       description:
         "Completed Diploma in Computer Technology with practical knowledge of programming, software development, database management, web technologies, and computer systems. During this journey, I developed my interest in full-stack web development."
     },

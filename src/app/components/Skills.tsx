@@ -13,7 +13,7 @@ const skillCategories = [
       { name: "CSS", icon: "/css.png", level: 8 },
       { name: "JavaScript", icon: "/js.png", level: 8 },
       { name: "React", icon: "/react.png", level: 9 },
-      { name: "Next.js", icon: "/next.png", level: 8 },
+      { name: "Next.js", icon: "/nextjs.png", level: 8 },
       { name: "Tailwind CSS", icon: "/tailwind.png", level: 9 },
     ]
   },
@@ -23,8 +23,8 @@ const skillCategories = [
     title: "Backend Development",
     skills: [
       { name: "Node.js", icon: "/node.png", level: 8 },
-      { name: "Express.js", icon: "/express.png", level: 8 },
-      { name: "MongoDB", icon: "/mongodb.png", level: 8 },
+      { name: "Express.js", icon: "/ex.png", level: 8 },
+      { name: "MongoDB", icon: "/mongo.png", level: 8 },
     ]
   },
 
@@ -34,7 +34,7 @@ const skillCategories = [
     skills: [
       { name: "Git", icon: "/git.png", level: 8 },
       { name: "GitHub", icon: "/github.png", level: 8 },
-      { name: "VS Code", icon: "/vscode.png", level: 9 },
+      { name: "VS Code", icon: "/vs.png", level: 9 },
     ]
   }
 
