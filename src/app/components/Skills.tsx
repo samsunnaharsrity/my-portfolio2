@@ -2,7 +2,7 @@
 
 import Image from 'next/image';
 import { motion } from 'framer-motion';
-import FadeIn from './animations/Fadeln';
+import FadeIn from './animations/FadeIn';
 
 
 const skillCategories = [
