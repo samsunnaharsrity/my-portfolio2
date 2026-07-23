@@ -47,7 +47,7 @@ export default function Skills() {
   return (
 
     <section 
-      className="py-24 px-6 max-w-7xl mx-auto"
+      className="py-20 px-6 max-w-6xl mx-auto"
       id="skills"
     >
 

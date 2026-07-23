@@ -12,8 +12,107 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Samsun Nahar | Full Stack Developer Portfolio",
-  description: "Crafting modern, responsive, and user-friendly websites with passion and precision.",
+
+  title: {
+    default: "Samsun Nahar | Full Stack Developer",
+    template: "%s | Samsun Nahar",
+  },
+
+
+  description:
+    "Samsun Nahar is a Full Stack Web Developer specializing in Next.js, React, TypeScript, Node.js, Express.js, MongoDB and modern web applications.",
+
+
+  keywords: [
+    "Samsun Nahar",
+    "Full Stack Developer",
+    "Next.js Developer",
+    "React Developer",
+    "TypeScript Developer",
+    "Node.js Developer",
+    "Frontend Developer",
+    "Backend Developer",
+    "Web Developer Bangladesh"
+  ],
+
+
+  authors: [
+    {
+      name: "Samsun Nahar",
+    },
+  ],
+
+
+  creator: "Samsun Nahar",
+
+
+  metadataBase: new URL(
+    "https://your-domain.com"
+  ),
+
+
+  openGraph: {
+
+    title:
+      "Samsun Nahar | Full Stack Developer Portfolio",
+
+    description:
+      "Explore my projects, skills and experience in modern full-stack web development.",
+
+
+    url:
+      "https://your-domain.com",
+
+
+    siteName:
+      "Samsun Nahar Portfolio",
+
+
+    images: [
+      {
+        url: "/profile.png",
+        width: 1200,
+        height: 630,
+        alt: "Samsun Nahar Portfolio",
+      },
+    ],
+
+
+    locale: "en_US",
+
+    type: "website",
+
+  },
+
+
+  twitter: {
+
+    card: "summary_large_image",
+
+    title:
+      "Samsun Nahar | Full Stack Developer",
+
+
+    description:
+      "Full Stack Developer portfolio showcasing modern web applications.",
+
+
+    images: [
+      "/profile.png"
+    ],
+
+  },
+
+
+  robots: {
+
+    index: true,
+
+    follow: true,
+
+  },
+
+
 };
 
 

@@ -49,6 +49,7 @@ flex
 items-center 
 justify-center 
 pt-28
+py-10
 px-6 
 lg:px-8
 overflow-hidden
