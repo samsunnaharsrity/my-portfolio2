@@ -42,23 +42,9 @@ export default function Hero() {
   }, []);
 
   return (
-    <section ref={containerRef} className="
-relative 
-min-h-screen 
-flex 
-items-center 
-justify-center 
-pt-28
-py-10
-px-6 
-lg:px-8
-overflow-hidden
-bg-gradient-to-br 
-from-[#fdfbff] 
-via-[#fff5f8] 
-to-[#f8f7ff]
-"
-id="home">
+<section
+className="relative min-h-screen flex items-center justify-center pt-28 py-10 px-6 lg:px-8 overflow-hidden bg-gradient-to-br from-[#fdfbff] via-[#fff5f8] to-[#f8f7ff]"
+>
       <div ref={glow1Ref} className="ambient-glow -top-40 -left-40 opacity-40" />
       <div ref={glow2Ref} className="ambient-glow top-1/2 -right-40 opacity-30" />
       
@@ -129,11 +115,11 @@ id="home">
                     src: "/linkedin.png",
                     link: "https://linkedin.com/in/samsunnahar",
                   },
-                  {
-                    alt:"Facebook",
-                    src:"/facebook.png",
-                    link:"https://facebook.com/..."
-                  }
+                  // {
+                  //   alt:"Facebook",
+                  //   src:"/facebook.png",
+                  //   link:"https://facebook.com/..."
+                  // }
                 ].map((social, idx) => (
                   <Magnetic key={idx}>
                     <a
