@@ -304,7 +304,7 @@ value="table"
 <input
 type="hidden"
 name="_next"
-value="http://localhost:3000/?success=true"
+value="https://my-portfolio2-seven-chi.vercel.app/?success=true"
 />
 
 
