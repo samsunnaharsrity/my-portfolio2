@@ -81,7 +81,7 @@ className="relative min-h-screen flex items-center justify-center pt-28 py-10 px
           <div className="flex flex-wrap items-center gap-6">
             <Magnetic>
 <a
-  href="/resume.pdf"
+  href="/resume.pdf.pdf"
   download
   className="btn-gradient px-8 py-3 rounded-2xl font-bold flex items-center gap-2 shadow-[0_10px_20px_rgba(143,135,241,0.2)]"
 >
